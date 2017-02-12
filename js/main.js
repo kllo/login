@@ -1,7 +1,7 @@
 var on=true;
 var step=0;
 //数组
-var text="*welcom*-------------------------*log.......*sucess*====*welcom*This is SVB"
+var text="*welcom*-------------------------*log.......*sucess*====*welcom*This is SVB";
 
 //光标
 //function curse(){
