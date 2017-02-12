@@ -1,7 +1,7 @@
 var on=true;
 var step=0;
 //数组
-var text="*welcom*-------------------------*log.......*sucess*====*welcom*This is SVB"
+var text="*welcom*-------------------------*log.......*sucess*====*welcom*This is SVB";
 
 //光标
 //function curse(){
@@ -18,7 +18,7 @@ var i=0;
 var ss=document.getElementById("text")
 function write(text){
 	ss.innerHTML+=text[i];
-	i++;
+	
 	if(text[i]=="*"){
 		ss.innerHTML+="<br/>";
 	}
@@ -28,6 +28,7 @@ function write(text){
 		$('#main').html(" ");
 		step++;
 	}
+	i++;
 }
 //显示登录框
 function loge(){
